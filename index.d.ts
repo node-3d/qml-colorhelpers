@@ -1,4 +1,4 @@
-declare module "qml-colorhelpers-raub" {
+declare module "@node-3d/qml-colorhelpers" {
 	/**
 	 * Path to this module
 	 *

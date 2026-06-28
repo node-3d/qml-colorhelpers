@@ -2,10 +2,10 @@
 
 This is a part of [Node3D](https://github.com/node-3d) project.
 
-[![NPM](https://badge.fury.io/js/qml-colorhelpers-raub.svg)](https://badge.fury.io/js/qml-colorhelpers-raub)
+[![NPM](https://badge.fury.io/js/%40node-3d%2Fqml-colorhelpers.svg)](https://badge.fury.io/js/@node-3d/qml-colorhelpers)
 
 ```console
-npm i -s qml-colorhelpers-raub
+npm install @node-3d/qml-colorhelpers
 ```
 
 ![Example](examples/screenshot.png)
@@ -168,13 +168,15 @@ import ColorHelpers
 ### C++ import path
 
 ```cpp
-qmlEngine->addImportPath("path to qml-colorhelpers-raub");
+qmlEngine->addImportPath("path to @node-3d/qml-colorhelpers");
 ```
 
-### Node.js qml-raub
+### Node.js @node-3d/qml
 
 ```js
-View.libs(require('qml-colorhelpers-raub').absPath);
+import { absPath } from '@node-3d/qml-colorhelpers';
+
+View.libs(absPath);
 ```
 
 ### Manual
