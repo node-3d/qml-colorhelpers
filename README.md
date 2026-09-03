@@ -173,6 +173,8 @@ qmlEngine->addImportPath("path to @node-3d/qml-colorhelpers");
 
 ### Node.js @node-3d/qml
 
+`absPath` is the package root, which contains the `ColorHelpers` QML module.
+
 ```js
 import { absPath } from '@node-3d/qml-colorhelpers';
 
