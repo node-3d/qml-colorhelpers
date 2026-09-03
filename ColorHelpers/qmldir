@@ -7,6 +7,7 @@ ColorRectHue 1.0 ColorRectHue.qml
 ColorRectSatVal 1.0 ColorRectSatVal.qml
 MouseRect 1.0 MouseRect.qml
 Crosshair 1.0 Crosshair.qml
+CrosshairRect 1.0 CrosshairRect.qml
 PickerHue 1.0 PickerHue.qml
 PickerSatVal 1.0 PickerSatVal.qml
 PickerHsv 1.0 PickerHsv.qml

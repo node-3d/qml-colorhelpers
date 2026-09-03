@@ -59,7 +59,7 @@ PickerHue {
 ```
 
 
-### PickerHue
+### PickerSatVal
 
 A gradient box to select color saturation and value.
 The picker fills the whole item area.
@@ -148,12 +148,13 @@ Has optional margins, because slider knobs usually can go past the selection are
 should still seem interactive.
 
 ```js
-MouseArea {
+MouseRect {
 	uMargin: 0 // the default
 	vMargin: 0 // the default
 	onUvChanged: (u, v) => {
-		console.log("MouseArea onUvChanged", sat, val);
+		console.log("MouseRect onUvChanged", u, v);
 	}
+}
 ```
 
 
